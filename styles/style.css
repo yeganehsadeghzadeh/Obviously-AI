@@ -75,6 +75,7 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
@@ -364,6 +365,7 @@ body {
 header {
   width: 100%;
   position: fixed;
+  top: 0;
   background-color: #fff;
 }
 
@@ -402,7 +404,7 @@ nav {
 }
 
 .header-ul li a:hover {
-    color: rgba(38,38,38,.75);
+  color: rgba(38, 38, 38, 0.75);
 }
 
 .header-ul li:first-child a {
@@ -465,3 +467,95 @@ nav {
   background-color: #1462d7;
 }
 
+/* start main */
+
+main {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-home {
+  max-width: 920px;
+}
+.content-hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  max-width: 790px;
+  color: #262626;
+  letter-spacing: -0.04em;
+  margin-top: 0;
+  margin-bottom: -25px;
+  font-size: 50px;
+  line-height: 1.04;
+  padding: 20px 30px;
+}
+
+.hero-div-para {
+  max-width: 600px;
+}
+
+.hero-paragraph {
+  max-width: 553px;
+  text-align: center;
+  padding-top: 0;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.hero-links {
+  width: auto;
+  grid-column-gap: 8px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  justify-items: stretch;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: grid;
+}
+
+.first-button-hero {
+  color: #fff;
+  text-align: center;
+  background-color: #267dff;
+  border: 1px solid #267dff;
+  border-radius: 10px;
+  padding: 15px 36px 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: background-color 0.2s;
+}
+
+.first-button-hero:hover {
+  background-color: #1462d7;
+  border-color: #1462d7;
+}
+
+.second-button-hero {
+  color: #3e343f;
+  text-align: center;
+  letter-spacing: -0.01em;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  padding: 15px 45px 13px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: background-color 0.2s;
+}
+
+.second-button-hero:hover {
+    background-color: #ebebeb;
+}
