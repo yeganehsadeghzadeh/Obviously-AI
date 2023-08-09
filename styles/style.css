@@ -367,6 +367,7 @@ header {
   position: fixed;
   top: 0;
   background-color: #fff;
+  z-index: 1000;
 }
 
 .header-div {
@@ -557,5 +558,180 @@ main {
 }
 
 .second-button-hero:hover {
-    background-color: #ebebeb;
+  background-color: #ebebeb;
+}
+
+/* start AI model section */
+
+.content {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+
+.backgroand-ai-model {
+  background-color: #f3f5fc;
+  border-radius: 10px;
+  height: 357px;
+}
+
+.Content-ai-model {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 276px;
+  grid-gap: 34px;
+  padding: 40px;
+}
+
+.parent-ai-model-div {
+  position: relative;
+}
+
+.ai-model-div {
+  border: 2px solid #3e343f;
+  border-radius: 4px;
+  box-shadow: 1px 1px 0 2px #9867ff;
+  width: 100%;
+  height: 100%;
+  background-color: #231d1d;
+}
+
+.text-ai-model {
+  align-self: center;
+  justify-self: center;
+  max-width: 350px;
+}
+
+.text-ai-model h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 12px;
+  color: #262626;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.text-ai-model p {
+  margin-bottom: -32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e343f;
+}
+
+.yellow-nugget {
+  position: absolute;
+  top: 110px;
+  left: -16px;
+}
+
+.blue-nugget {
+  position: absolute;
+  top: -16px;
+  right: 53px;
+}
+
+.bottom-charts {
+  margin-bottom: -27px;
+  margin-left: 75px;
+}
+
+.embedly-embed {
+  width: 100%;
+  height: 100%;
+}
+
+/* start What is possible section */
+
+.possible-text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.possible-text h2 {
+  color: #262626;
+  letter-spacing: -0.04em;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.possible-text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.possible-box-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.box {
+  width: 350px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.Classification {
+  background-color: #267dff;
+}
+
+.Classification .possible-links a:hover {
+  background-color: #1462d7;
+  border-color: #ebebeb;
+}
+
+.Regression {
+  background-color: #00d085;
+}
+
+.Regression .possible-links a:hover {
+  background-color: #01a369;
+  border-color: #ebebeb;
+}
+
+.Time-Series {
+  background-color: #9867ff;
+}
+
+.Time-Series .possible-links a:hover {
+  background-color: #885be5;
+  border-color: #ebebeb;
+}
+
+.box-top {
+  text-align: center;
+  padding: 35px;
+  color: #fff;
+}
+
+.box-top h3 {
+  font-size: 23px;
+}
+
+.box-top p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.possible-links {
+  margin-top: 65px;
+}
+
+.possible-links a {
+  color: #fff;
+  text-align: center;
+  letter-spacing: -0.01em;
+  border: 1px solid rgba(235, 235, 235, 0.15);
+  border-radius: 10px;
+  padding: 17px 45px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: background-color 0.2s;
 }
