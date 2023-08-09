@@ -648,14 +648,6 @@ main {
   margin-bottom: 60px;
 }
 
-.possible-text h2 {
-  color: #262626;
-  letter-spacing: -0.04em;
-  margin-bottom: 0;
-  font-size: 48px;
-  line-height: 1;
-}
-
 .possible-text p {
   font-size: 16px;
   line-height: 24px;
@@ -734,4 +726,136 @@ main {
   font-weight: 600;
   line-height: 24px;
   transition: background-color 0.2s;
+}
+
+/* start Product features  */
+
+.background-blue-gray {
+  background-color: #f3f5fc;
+  position: relative;
+}
+
+.Product-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.model-building {
+  width: 1110px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 13rem;
+}
+
+.content-model-building {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  grid-gap: 30px;
+}
+
+.model-building-text div:first-child {
+  background-color: #f4e82f;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 5px 8px 2px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3e343f;
+}
+
+.h2 {
+  color: #262626;
+  letter-spacing: -0.04em;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.p {
+  font-size: 16px;
+}
+
+.model-building-text a {
+  color: #fff;
+  background-color: #267dff;
+  border: 1px solid #267dff;
+  border-radius: 10px;
+  padding: 18px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: background-color 0.2s;
+}
+
+.model-building-text a:hover {
+  background-color: #1462d7;
+  border-color: #1462d7;
+}
+
+.model-building-links {
+  margin-top: 70px;
+}
+
+.Product-h2 {
+  position: absolute;
+  margin: 100px auto 75px 375px;
+}
+
+.launch-model {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 5rem;
+}
+
+.launch-model-div {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 36px;
+}
+
+.h3-launch {
+  font-size: 32px;
+  line-height: 33px;
+  color: #262626;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+}
+
+.launch-div {
+  border-radius: 4px;
+  padding: 8px 8px 5px;
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.model {
+  color: #fff;
+  background-color: #00d085;
+}
+
+.model-monitoring {
+  color: #fff;
+  background-color: #267dff;
+}
+
+.integration {
+  background-color: #f4e82f;
+  color: #fff;
+}
+
+.expert {
+  background-color: #9867ff;
+  color: #fff;
+}
+
+.launch-p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -15px;
 }
