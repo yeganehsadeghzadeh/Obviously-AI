@@ -1108,7 +1108,7 @@ input[type="checkbox"] {
 
 .in-news h3 {
   margin-bottom: -40px;
-  letter-spacing: -.04em;
+  letter-spacing: -0.04em;
   margin-top: 0;
   font-size: 24px;
   font-weight: 500;
@@ -1131,4 +1131,77 @@ input[type="checkbox"] {
 .tech-crunch-logo {
   width: 157px !important;
   max-width: none !important;
+}
+
+/* Started section */
+
+.started-section {
+  max-width: 1110px;
+  background-color: #267dff;
+  background-image: url(../images/Started-section/6157440597925f273a0d1c4f_Get\ Started\ Now-21.svg);
+  background-size: cover;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 52px 40px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.started-text h2 {
+  color: #fff;
+  letter-spacing: -0.04em;
+  font-size: 48px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.started-text p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 27px;
+  max-width: 405px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.started-links {
+  margin-top: 21px;
+}
+
+.started-links a:first-child {
+  color: #fff;
+  text-align: center;
+  background-color: #267dff;
+  padding: 18px 40px 16px;
+  border: 1px solid rgba(235, 235, 235, 0.15);
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.started-links a:first-child:hover {
+  background-color: #1462d7;
+  border-color: #ebebeb;
+}
+
+.started-links a:last-child {
+  color: #3e343f;
+  background-color: #fff;
+  text-align: center;
+  padding: 18px 40px 16px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  border-radius: 10px;
+}
+
+.started-links a:last-child:hover {
+  background-color: #ebebeb;
 }
