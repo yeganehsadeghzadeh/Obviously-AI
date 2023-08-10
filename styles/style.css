@@ -568,6 +568,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 120px;
+  margin-bottom: 100px;
 }
 
 .backgroand-ai-model {
@@ -858,4 +859,159 @@ main {
   font-size: 16px;
   line-height: 24px;
   margin-top: -15px;
+}
+
+/* start Save time building complex AI models section  */
+
+.save-time-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-time-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+  margin-top: -65px;
+}
+
+.opacity-div {
+  opacity: 0.4;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.save-time-p {
+  font-size: 20px;
+  line-height: 27px;
+  color: #3e343f;
+}
+
+.save-time-div-p {
+  align-self: center;
+  justify-self: center;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: auto 350px;
+  margin-top: 45px;
+}
+
+.range-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.range-div {
+  color: #3e343f;
+  background-color: #f3f5fc;
+  border-radius: 10px;
+  margin-right: 12px;
+  padding: 12px 14px 2px;
+  font-size: 49px;
+  font-weight: 900;
+  line-height: 49px;
+  display: inline-block;
+}
+
+.range-p {
+  font-size: 18px;
+  line-height: 1.35;
+  display: inline-block;
+  color: #3e343f;
+}
+
+.check-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -115px;
+  gap: 10px;
+}
+
+.check-box p {
+  font-size: 16px;
+  color: #3e343f;
+}
+
+.row-elements {
+  display: flex;
+  align-items: baseline;
+}
+
+.box-time {
+  width: 100%;
+  color: #fff;
+  max-width: 360px;
+  background-color: #9867ff;
+  border-radius: 10px;
+  padding: 26px 26px 24px;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 30px;
+}
+
+.box-time-img div {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 49px;
+  margin-left: 10px;
+}
+
+.box-time-yellow {
+  color: #f4e82f !important;
+}
+
+.box-time p {
+  font-size: 15px;
+}
+
+input[type="range"] {
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 22rem;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #ebebeb;
+}
+
+/***** Thumb Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: 0px; /* Centers thumb on the track */
+  background-image: url(../images/Save-time-images/slide-\ toggle.svg);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.range-time-numbers1 p:last-child {
+  margin-left: 17.5rem;
+}
+
+.range-time-numbers2 p:last-child {
+  margin-left: 19.8rem;
+}
+
+.range-time-numbers1,
+.range-time-numbers2 {
+  opacity: 0.4;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  accent-color: #02a561;
+}
+
+.checkbox-row {
+  align-items: center;
 }
