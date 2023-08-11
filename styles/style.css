@@ -1205,3 +1205,84 @@ input[type="checkbox"] {
 .started-links a:last-child:hover {
   background-color: #ebebeb;
 }
+
+/* Start footer */
+
+footer {
+  background-color: #ebebeb;
+}
+
+.footer {
+  margin-bottom: 0;
+}
+
+.footer-div {
+  display: grid;
+  grid-template-columns: 365px 1fr;
+  padding-top: 45px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-logo {
+  height: 26px;
+}
+
+.Social-media-photos {
+  margin-top: 20px;
+}
+
+.Social-media-photos a img {
+  width: 20px;
+  margin-right: 17px;
+}
+
+.Social-media-photos a {
+  text-decoration: none !important;
+}
+
+.footer-content {
+  max-width: 233px;
+}
+
+.footer-content p {
+  color: #3e343f;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-content a {
+  text-decoration: underline;
+}
+
+.footer-links-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-links-div div {
+  color: #030202;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer-links-div a {
+  margin-top: 10px;
+  color: #3e343f;
+  font-size: 15px;
+}
+
+.footer-img {
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+
+.footer-img img {
+  width: 76px;
+  margin-right: 8px;
+}
