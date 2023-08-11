@@ -1275,6 +1275,13 @@ footer {
   margin-top: 10px;
   color: #3e343f;
   font-size: 15px;
+  line-height: 17px;
+}
+
+.footer-links-div a:hover {
+  font-weight: 900;
+  font-size: 16px
+
 }
 
 .footer-img {
