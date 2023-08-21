@@ -1426,3 +1426,33 @@ footer {
   width: 76px;
   margin-right: 8px;
 }
+
+.help-message-button {
+  width: 48px;
+  height: 48px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.06) 0px 1px 6px)
+    drop-shadow(rgba(0, 0, 0, 0.16) 0px 2px 32px);
+  background: rgb(38, 125, 255);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(0deg) scale(1);
+  transition: transform 0.16s linear 0s, opacity 0.08s linear 0s;
+}
+
+.help-message-button:hover {
+  transform: rotate(0deg) scale(1.1);
+
+}
+
+.help-message-button svg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}
