@@ -364,7 +364,7 @@ body {
 
 header {
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   background-color: #fff;
   z-index: 1000;
@@ -375,6 +375,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   margin: 0 40px;
+  height: 100%;
 }
 
 .home-logo-div {
@@ -388,6 +389,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.hamburger-icon {
+  display: none;
 }
 
 .header-ul {
@@ -1448,11 +1453,65 @@ footer {
 
 .help-message-button:hover {
   transform: rotate(0deg) scale(1.1);
-
 }
 
 .help-message-button svg {
   fill: #fff;
   width: 24px;
   height: 24px;
+}
+
+/* responsive */
+
+@media (max-width: 1300px) {
+  .header-ul li {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+  .header-ul li a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home-logo-div {
+    display: none;
+  }
+  nav div:first-child {
+    margin-left: -60px;
+  }
+  .header-div {
+    margin: 0 35px;
+  }
+}
+
+@media (max-width: 990px) {
+  header {
+    height: 100px;
+  }
+  nav {
+    display: none;
+  }
+  .header-div {
+    justify-content: space-between;
+  }
+  .home-logo-div {
+    display: block;
+  }
+  .hamburger-icon {
+    display: block;
+    width: 28px;
+  }
+}
+
+@media (max-width: 479px) {
+  .header-div {
+    margin: 0 20px;
+  }
+  .home-logo-div {
+    width: 130px;
+  }
+  .hamburger-icon {
+    width: 20px;
+  }
 }
