@@ -611,15 +611,27 @@ nav {
 
 main {
   width: 100%;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+section {
+  margin: 0 30px;
+}
+
 .hero-home {
   max-width: 920px;
+}
+
+.hero-home div:first-child {
+  margin: 0 20px;
+}
+
+.hero-home img {
+  max-width: 100%;
+  height: auto;
 }
 .content-hero {
   text-align: center;
@@ -636,7 +648,7 @@ main {
   margin-bottom: -25px;
   font-size: 50px;
   line-height: 1.04;
-  padding: 20px 30px;
+  padding: 20px 21px;
 }
 
 .hero-div-para {
@@ -646,9 +658,11 @@ main {
 .hero-paragraph {
   max-width: 553px;
   text-align: center;
-  padding-top: 0;
+  padding-top: 10px;
   font-size: 20px;
   line-height: 27px;
+  color: #262626;
+  margin: 10px 20px;
 }
 
 .hero-links {
@@ -714,11 +728,13 @@ main {
   background-color: #f3f5fc;
   border-radius: 10px;
   height: 357px;
+  max-width: fit-content;
+  width: 100%;
 }
 
 .Content-ai-model {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 276px;
   grid-gap: 34px;
   padding: 40px;
@@ -726,6 +742,7 @@ main {
 
 .parent-ai-model-div {
   position: relative;
+  width: 100%;
 }
 
 .ai-model-div {
@@ -740,7 +757,9 @@ main {
 .text-ai-model {
   align-self: center;
   justify-self: center;
-  max-width: 350px;
+  max-width: 100%;
+  height: 272px;
+  padding: 0 13px;
 }
 
 .text-ai-model h2 {
@@ -1502,6 +1521,56 @@ footer {
     display: block;
     width: 28px;
   }
+  .Content-ai-model {
+    grid-gap: 25px;
+    padding: 25px;
+  }
+  .parent-ai-model-div {
+    height: 232px;
+  }
+  .backgroand-ai-model {
+    height: 320px;
+  }
+  .bottom-charts {
+    margin-bottom: -49px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: 42px;
+  }
+  .Content-ai-model {
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
+    grid-row-gap: 0;
+  }
+  .backgroand-ai-model {
+    height: fit-content;
+  }
+  .bottom-charts {
+    display: none;
+  }
+  .ai-model-div {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .embedly-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .parent-ai-model-div {
+    height: auto;
+  }
+  .text-ai-model {
+    padding-top: 40px;
+    height: max-content;
+    padding-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1513,5 +1582,12 @@ footer {
   }
   .hamburger-icon {
     width: 20px;
+  }
+  .hero-title {
+    font-size: 32px;
+  }
+  .hero-links {
+    grid-template-columns: 1fr;
+    justify-items: stretch;
   }
 }
